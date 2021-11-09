@@ -8,7 +8,7 @@ function App() {
   return (
 
     <div className="page-wrapper">
-      <header>
+      <header className="header">
         <h1 className="heading-primary">
           SPLI
           <span className="line-breaker">TTER</span>

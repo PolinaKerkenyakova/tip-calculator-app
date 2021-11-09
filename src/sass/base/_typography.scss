@@ -7,8 +7,12 @@
     font-weight: 700;
 }
 
-.heading-secondary {
+.heading-secondary, .heading-tertiary {
     color: $dark-grayish-cyan-1;
     font-size: 1.6rem;
     margin: .7rem 0;
+}
+
+.heading-tertiary {
+    color: $light-grayish-cyan-2;
 }

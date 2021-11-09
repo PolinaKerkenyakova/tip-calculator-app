@@ -1,17 +1,26 @@
 .tips {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .tip {
-    color: $white;
-    background-color: $very-dark-cyan;
-    font-size: 2.4rem;
-    padding: 1rem 3rem;
-    width: 15rem;
-    border-radius: .8rem;
-    text-align: center;
-    margin: .5rem 0;
-}
+  color: $light-grayish-cyan-2;
+  background-color: $very-dark-cyan;
+  font-size: 2.4rem;
+  padding: 1rem 3rem;
+  width: 15rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  transition: all 0.2s;
 
+  &__active {
+    background-color: $light-grayish-cyan-1;
+  }
+
+  &:hover {
+    color: $very-dark-cyan;
+    background-color: $light-grayish-cyan-1;
+  }
+}

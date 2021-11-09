@@ -1,0 +1,20 @@
+.bills {
+  background-color: $very-dark-cyan;
+  padding: 2rem;
+  border-radius: .8rem;
+}
+
+.bill {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+
+  &__paragraph {
+    color: $dark-grayish-cyan-1;
+  }
+
+  &__amount {
+    color: $strong-cyan;
+    font-size: 4rem;
+  }
+}
