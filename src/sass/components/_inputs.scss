@@ -11,4 +11,19 @@
   text-align: right;
   color: $very-dark-cyan;
   font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+
+.tip-custom-input {
+  width: 15rem;
+  border-radius: .8rem;
+  margin: .5rem 0;
+}
+
+.tip-custom-input > .text-input {
+ padding: 1rem 3rem;
+ border-radius: .8rem;
+
 }

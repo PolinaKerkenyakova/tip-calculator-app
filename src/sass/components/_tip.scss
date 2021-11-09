@@ -1,0 +1,17 @@
+.tips {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tip {
+    color: $white;
+    background-color: $very-dark-cyan;
+    font-size: 2.4rem;
+    padding: 1rem 3rem;
+    width: 15rem;
+    border-radius: .8rem;
+    text-align: center;
+    margin: .5rem 0;
+}
+

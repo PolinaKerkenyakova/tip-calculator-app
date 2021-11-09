@@ -1,6 +1,8 @@
 import './App.scss';
+import Bill from './components/Bill';
 import BillInput from './components/BillInput';
 import PeopleInput from './components/PeopleInput';
+import TipSelector from './components/TipSelector';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <div className="content-wrapper">
 
           <BillInput />
+          <TipSelector />
           <PeopleInput />
+          <Bill />
         </div>
 
       </main>
