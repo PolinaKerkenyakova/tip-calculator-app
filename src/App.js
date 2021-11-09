@@ -1,4 +1,5 @@
 import './App.scss';
+import BillInput from './components/BillInput';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         </header>
 
         <main className="main-content">
-
+          <BillInput />
         </main>
 
       </div>
