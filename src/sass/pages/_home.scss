@@ -1,0 +1,14 @@
+.page-wrapper {
+    background-color: $light-grayish-cyan-1;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    background-color: $white;
+}
