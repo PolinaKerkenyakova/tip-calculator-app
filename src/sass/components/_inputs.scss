@@ -1,10 +1,14 @@
 .input-container {
-    position: relative;
+  position: relative;
 }
 
 .text-input {
-    outline: 1px solid $light-grayish-cyan-1;
-    background-color: $light-grayish-cyan-2;
-    border: 1px solid $light-grayish-cyan-2;
-    font-size: 2.4rem;
+  outline: 1px solid $light-grayish-cyan-2;
+  background-color: $light-grayish-cyan-2;
+  border: 1px solid $light-grayish-cyan-2;
+  font-size: 2.4rem;
+  width: 100%;
+  text-align: right;
+  color: $very-dark-cyan;
+  font-family: 'JetBrains Mono', monospace;
 }

@@ -1,8 +1,4 @@
 .page-wrapper {
-    background-color: $light-grayish-cyan-1;
-}
-
-.content-wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -15,5 +11,9 @@
     width: 100%;
     border-top-left-radius: 1.7rem;
     border-top-right-radius: 1.7rem;
-    padding: 1.5rem;
+    padding: 3rem;
+}
+
+.content-wrapper {
+
 }
