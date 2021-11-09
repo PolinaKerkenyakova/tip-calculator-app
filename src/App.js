@@ -18,10 +18,12 @@ function App() {
       <main className="main-content">
         <div className="content-wrapper">
 
-          <BillInput />
-          <TipSelector />
-          <PeopleInput />
-          <Bill />
+          <div className="inputs"> <BillInput />
+            <TipSelector />
+            <PeopleInput /></div>
+          <div className="outputs">
+            <Bill />
+          </div>
         </div>
 
       </main>

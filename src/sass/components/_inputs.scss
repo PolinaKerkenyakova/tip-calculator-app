@@ -10,21 +10,30 @@
   width: 100%;
   text-align: right;
   color: $very-dark-cyan;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-weight: 700;
   border-radius: 2px;
   padding: 1rem 3rem;
 }
 
-
 .tip-custom-input {
   width: 15rem;
-  border-radius: .8rem;
-  margin: .5rem 0;
+  border-radius: 0.8rem;
+  margin: 0.5rem 0;
+  @media only screen and (min-width: 950px) {
+    & {
+      width: 13rem;
+    }
+  }
 }
 
 .tip-custom-input > .text-input {
- padding: 1rem 3rem;
- border-radius: .8rem;
+  padding: 1rem 3rem;
+  border-radius: 0.8rem;
 
+  @media only screen and (min-width: 950px) {
+    & {
+      padding: 1rem 1rem;
+    }
+  }
 }

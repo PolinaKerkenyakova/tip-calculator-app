@@ -1,20 +1,44 @@
 .page-wrapper {
-    height: 100vh;
+  height: 100vh;
 }
 
 .main-content {
-    background-color: $white;
-    width: 100%;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    padding: 3rem;
+  background-color: $white;
+  width: 100%;
+  max-width: 50rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 3rem;
+  margin: 0 auto;
+
+  @media only screen and (min-width: 950px) {
+    & {
+      max-width: 90rem;
+      border-bottom-left-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+    }
+  }
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .content-wrapper {
-    max-width: 35rem;
-    margin: 0 auto;
+  max-width: 35rem;
+  margin: 0 auto;
+
+  @media only screen and (min-width: 950px) {
+    & {
+      display: flex;
+      max-width: 90rem;
+      justify-content: space-between;
+    }
+  }
+}
+
+.inputs,
+.outputs {
+  flex-basis: 48%;
+  height: 100%;
 }

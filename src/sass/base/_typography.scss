@@ -1,18 +1,25 @@
-.heading-primary{
-    color: $dark-grayish-cyan-1;
-    font-weight: 400;
-    margin: 3rem 0;
-    letter-spacing: .7rem;
-    font-size: 2.4rem;
-    font-weight: 700;
+.heading-primary {
+  color: $dark-grayish-cyan-1;
+  margin: 3rem 0;
+  letter-spacing: 0.7rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  @media only screen and (min-width: 950px) {
+    & {
+        margin: 6rem 0;
+
+    }
+  }
 }
 
-.heading-secondary, .heading-tertiary {
-    color: $dark-grayish-cyan-1;
-    font-size: 1.6rem;
-    margin: .7rem 0;
+.heading-secondary,
+.heading-tertiary {
+  color: $dark-grayish-cyan-1;
+  font-size: 1.6rem;
+  margin: 0.7rem 0;
 }
 
 .heading-tertiary {
-    color: $light-grayish-cyan-2;
+  color: $light-grayish-cyan-2;
 }

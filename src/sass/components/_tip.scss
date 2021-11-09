@@ -2,6 +2,13 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+
+  @media only screen and (max-width: 365px) {
+    & {
+      flex-flow: column wrap;
+      align-items: center;
+    }
+  }
 }
 
 .tip {
@@ -14,6 +21,12 @@
   text-align: center;
   margin: 0.5rem 0;
   transition: all 0.2s;
+
+  @media only screen and (min-width: 950px) {
+    & {
+      width: 13rem;
+    }
+  }
 
   &__active {
     background-color: $light-grayish-cyan-1;

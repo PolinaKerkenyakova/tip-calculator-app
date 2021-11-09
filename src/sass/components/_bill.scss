@@ -1,7 +1,26 @@
 .bills {
   background-color: $very-dark-cyan;
   padding: 2rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
+
+  @media only screen and (min-width: 950px) {
+    & {
+      height: 385px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+
+}
+
+.bills.m-top-med {
+  @media only screen and (min-width: 950px) {
+    & {
+      margin-top: 0;
+    }
+  }
 }
 
 .bill {
