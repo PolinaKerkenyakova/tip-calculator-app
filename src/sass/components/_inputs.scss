@@ -18,7 +18,7 @@
 
 .tip-custom-input {
   width: 15rem;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
   margin: 0.5rem 0;
   @media only screen and (min-width: 950px) {
     & {
@@ -34,6 +34,10 @@
   @media only screen and (min-width: 950px) {
     & {
       padding: 1rem 1rem;
+    }
+
+    &::placeholder {
+      text-align: center;
     }
   }
 }

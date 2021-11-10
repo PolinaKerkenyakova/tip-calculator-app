@@ -3,7 +3,7 @@ const PeopleInput = () => {
         <>
             <h2 className="heading-secondary">Number of People</h2>
             <div className="input-container">
-                <input type="text" className="text-input" />
+                <input type="text" className="text-input" placeholder="0" />
                 <div className="input-icon-container">
                     <img src="/images/icon-person.svg" alt="Small grey person icon" className="input-icon" />
                 </div>
