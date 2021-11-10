@@ -1,19 +1,19 @@
 .btn {
-    padding: 1.5rem 3rem;
-    border-radius: .4rem;
+  padding: 1.5rem 3rem;
+  border-radius: 0.4rem;
 }
 
 .btn-primary {
-    background-color: $strong-cyan;
-    color: $very-dark-cyan;
-    border: none;
-    font-size: 1.6rem;
-    font-weight: 700;
-    width: 100%;
-    transition: all .2s;
+  background-color: $strong-cyan;
+  color: $very-dark-cyan;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 100%;
+  transition: all 0.2s;
 
-    &:hover {
-        color: $very-dark-cyan;
-        background-color: $light-grayish-cyan-1;
-      }
+  &:hover {
+    color: $very-dark-cyan;
+    background-color: $light-grayish-cyan-1;
+  }
 }
