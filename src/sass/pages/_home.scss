@@ -42,3 +42,13 @@
   flex-basis: 48%;
   height: 100%;
 }
+
+// Input validation
+
+.valid-input {
+  border: 1.5px solid $very-dark-cyan;
+}
+
+.invalid-input {
+  border: 1.5px solid rgb(189, 63, 47);
+}

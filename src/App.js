@@ -5,8 +5,21 @@ import PeopleInput from './components/PeopleInput';
 import TipSelector from './components/TipSelector';
 
 function App() {
-  return (
 
+  const getCostHandler = (cost) => {
+
+    console.log(cost)
+  }
+
+  const getPeopleCount = (peopleCount) => {
+    console.log(peopleCount)
+  }
+
+  const getTiAmountHandler = (tipAmount) => {
+    console.log(tipAmount)
+  }
+
+  return (
     <div className="page-wrapper">
       <header className="header">
         <h1 className="heading-primary">
@@ -18,9 +31,9 @@ function App() {
       <main className="main-content">
         <div className="content-wrapper">
 
-          <div className="inputs"> <BillInput />
-            <TipSelector />
-            <PeopleInput /></div>
+          <div className="inputs"> <BillInput onCostEnter={getCostHandler} />
+            <TipSelector onTipAmountEntered={getTiAmountHandler}/>
+            <PeopleInput onPeopleCountEnter={getPeopleCount}/></div>
           <div className="outputs">
             <Bill />
           </div>
